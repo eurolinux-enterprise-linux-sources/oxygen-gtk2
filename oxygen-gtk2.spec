@@ -2,7 +2,7 @@
 Name:    oxygen-gtk2
 Summary: Oxygen GTK+2 theme
 Version: 1.3.4
-Release: 1%{?dist}
+Release: 3%{?dist}
 
 License: LGPLv2+
 Group:   User Interface/Desktops
@@ -62,6 +62,12 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.3.4-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3.4-2
+- Mass rebuild 2013-12-27
+
 * Fri May 31 2013 Alexey Kurov <nucleo@fedoraproject.org> - 1.3.4-1
 - oxygen-gtk2-1.3.4
 
